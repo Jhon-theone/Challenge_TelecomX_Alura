@@ -135,3 +135,4 @@ Jhon Alexander Rodríguez Cortes
 
 Proyecto desarrollado como parte de un ejercicio de **análisis exploratorio de datos y ciencia de datos**.
 
+Este proyecto fue presentado por parte de **Alura.Latam y Oracle** como parte del programa **OracleNextEducation**.
