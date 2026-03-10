@@ -34,21 +34,14 @@ Algunas de las variables utilizadas en el análisis son:
 * **Contract** – tipo de contrato
 * **Payment Method** – método de pago
 * **Tenure** – antigüedad del cliente
-* **Total Charges** – total gastado
+* **Charges.Total** – total gastado
 * **Churn** – estado de evasión del cliente
-
-Variable objetivo:
-
-| Valor | Significado        |
-| ----- | ------------------ |
-| 0     | Cliente no evadido |
-| 1     | Cliente evadido    |
 
 ---
 
 ## ⚙️ Herramientas y Tecnologías
 
-El análisis fue desarrollado en **Python** utilizando las siguientes librerías:
+El análisis fue desarrollado en Google.Colab con **Python** utilizando las siguientes librerías:
 
 * **Pandas** → manipulación y análisis de datos
 * **Matplotlib** → visualización de datos
@@ -76,9 +69,48 @@ Estas visualizaciones permiten identificar **grupos de clientes con mayor probab
 
 El análisis muestra que ciertas características del cliente pueden estar relacionadas con mayores niveles de evasión.
 
-En particular, variables como **tipo de contrato, método de pago y gasto total** presentan diferencias relevantes entre clientes que permanecen en el servicio y aquellos que lo abandonan.
+En particular, variables como **tipo de contrato, método de pago, antigüedad y gasto total** presentan diferencias relevantes entre clientes que permanecen en el servicio y aquellos que lo abandonan.
 
 Estos hallazgos pueden servir como base para desarrollar **estrategias de retención de clientes** y mejorar la toma de decisiones en la empresa.
+
+---
+
+## 💡 Recomendaciones
+
+1. Incentivar contratos de mayor duración
+
+Los clientes con contrato mes a mes tienen más facilidad para cancelar el servicio.
+
+**Recomendación:**
+
+* Ofrecer descuentos o beneficios por cambiar a contratos anuales o de dos años.
+* Incluir promociones como: Meses con descuento, mejoras en el servicio, beneficios exclusivos.
+
+2. Estrategias de retención para clientes nuevos
+
+Los clientes con poca antigüedad presentan mayor probabilidad de evasión.
+
+**Recomendación:**
+
+* Implementar programas de seguimiento durante los primeros meses.
+* Enviar: Guías de uso del servicio, promociones iniciales, soporte personalizado.
+
+3. Analizar la experiencia de pago electrónico
+
+Los clientes que utilizan pagos electrónicos presentan mayor evasión.
+
+**Recomendación:**
+* Revisar si existen problemas de facturación o facilidad de pago.
+* Ofrecer incentivos por métodos de pago alternativos.
+
+4. Mejorar el valor percibido de los planes básicos
+
+Los clientes con planes de bajo costo o pocos servicios evaden con mayor frecuencia.
+
+**Recomendación:**
+
+* Crear paquetes de servicios combinados con mejor relación costo-beneficio.
+* Ofrecer upgrades o promociones personalizadas para aumentar el valor percibido.
 
 ---
 
@@ -99,5 +131,7 @@ Estos hallazgos pueden servir como base para desarrollar **estrategias de retenc
 ---
 
 ## 👤 Autor
+Jhon Alexander Rodríguez Cortes
 
 Proyecto desarrollado como parte de un ejercicio de **análisis exploratorio de datos y ciencia de datos**.
+
