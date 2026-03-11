@@ -9,6 +9,12 @@ El objetivo es identificar **patrones y factores asociados con la cancelación d
 
 ---
 
+## Acceso al proyecto
+
+[![Abrir en colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+---
+
 ## 🎯 Objetivos
 
 * Analizar la distribución de clientes que **evaden y no evaden**.
