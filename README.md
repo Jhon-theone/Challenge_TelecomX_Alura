@@ -11,7 +11,7 @@ El objetivo es identificar **patrones y factores asociados con la cancelación d
 
 ## Acceso al proyecto
 
-[![Abrir en colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+[![Abrir en colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jhon-theone/Challenge_TelecomX_Alura/blob/main/Challenge_TelecomX_Alura.ipynb)
 
 ---
 
